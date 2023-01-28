@@ -37,7 +37,7 @@ let adventurous = true;
 let Food = 'sushi';
 
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
-let pets = 0;
+let pets = 2;
 
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 
@@ -75,6 +75,17 @@ console.log('Roll the dice!');
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
 
+if (pets<=allowedPets) {
+console.log('I can have more pets!');
+
+    if (pets==allowedPets) {
+        console.log('I have enough pets');
+    }
+            if (pets>=allowedPets) {
+                console.log('Oh no, I have too many pets!')
+            }
+    
+        }        
 // STRETCH GOALS:
 
 // 16 - Make a variable called `mostPets` and a conditional that
