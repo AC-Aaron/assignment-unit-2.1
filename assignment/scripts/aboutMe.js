@@ -20,7 +20,7 @@ let fullName = firstName +' '+ lastName;
 console.log(fullName);
 
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
-let luckyNumber = 17;
+let luckyNumber =14136;
 
 // 6 - Console log this sentence, adding in the variables you created above: 
 // 'My name is (full name), and I think (lucky number) is a winner!'.
@@ -113,10 +113,28 @@ console.log(mostPets);
 //      Otherwise, log "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
 
+switch(luckyNumber) {
+    
+case 1:
+    console.log("First is the worst");
+   break;
+
+case 2:
+    console.log("Second is the best");
+    break;
+
+case 3:
+    console.log("Third is the one with the polka dot dress")
+    break;
+
+default:
+    console.log("Luck is what happens when preparation meets opportunity")
+}
+
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 
-let age =18;
+let age = 18;
 
 
 console.log((age>=18) ? "Let's go monster hunting" : "Let's stay inside and order pizza");
-//I tried to do this with a boolean variable but could not get it to work. Works great when the variable is a number. 
+// I tried to do this with a boolean variable but could not get it to work. Works great when the variable is a number. 
