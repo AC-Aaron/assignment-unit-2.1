@@ -75,13 +75,13 @@ console.log('Roll the dice!');
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
 
-if (pets<=allowedPets) {
+if (pets<allowedPets) {
 console.log('I can have more pets!');
 
     if (pets==allowedPets) {
         console.log('I have enough pets');
     }
-            if (pets>=allowedPets) {
+            if (pets>allowedPets) {
                 console.log('Oh no, I have too many pets!')
             }
     
@@ -93,6 +93,18 @@ console.log('I can have more pets!');
 // assigns the highest value to `mostPets`. There's several possibilities --
 // be sure to think through all the scenarios. 
 // console.log `mostPets` after the conditional has run.
+
+let mostPets;
+
+if (pets>friendsPets) {
+    mostPets = 'pets';} //checking if pets is greater than friendsPets, if so, mostPets = pets
+    
+    if (pets<friendsPets) {
+    mostPets = 'friendsPets';} //checking if pets is less than friendsPets, if so, mostPets = friendsPets
+
+
+console.log(mostPets);
+        
 
 // 17 - Write a *switch* statement that logs:
 //      "First is the worst" if your lucky number is 1
