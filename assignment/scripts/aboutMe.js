@@ -37,7 +37,8 @@ let adventurous = true;
 let Food = 'sushi';
 
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
-let pets = 2;
+let pets = 4;
+console.log('the value of pets is', pets);
 
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 
@@ -98,8 +99,7 @@ let mostPets;
 
 if (pets>friendsPets) {
     mostPets = 'pets';} //checking if pets is greater than friendsPets, if so, mostPets = pets
-    
-    if (pets<friendsPets) {
+    else  {
     mostPets = 'friendsPets';} //checking if pets is less than friendsPets, if so, mostPets = friendsPets
 
 
@@ -115,4 +115,8 @@ console.log(mostPets);
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 
+let age =18;
 
+
+console.log((age>=18) ? "Let's go monster hunting" : "Let's stay inside and order pizza");
+//I tried to do this with a boolean variable but could not get it to work. Works great when the variable is a number. 
